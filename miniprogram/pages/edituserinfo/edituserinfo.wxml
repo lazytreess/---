@@ -1,0 +1,39 @@
+<!--miniprogram/pages/edituserinfo/edituserinfo.wxml-->
+ <view class="edituserinfo">
+     <navigator url="./head/head" hover-class="navigate">
+            <view class="edituserinfo-list-item">
+             <text>修改头像</text>
+             <text class="iconfont iconicon-test14 "></text>
+            </view>
+         </navigator>
+         <navigator url="./name/name" hover-class="navigate">
+            <view class="edituserinfo-list-item">
+             <text>修改昵称</text>
+             <text class="iconfont iconicon-test14 "></text>
+            </view>
+         </navigator>
+         <navigator url="./signature/signature" hover-class="navigate">
+            <view class="edituserinfo-list-item">
+             <text>修改个性签名</text>
+             <text class="iconfont iconicon-test14 "></text>
+            </view>
+         </navigator>
+         <navigator url="./location/location" hover-class="navigate">
+            <view class="edituserinfo-list-item">
+             <text>共享位置</text>
+             <text class="iconfont iconicon-test14 "></text>
+            </view>
+         </navigator>
+         <navigator url="./phone/phone" hover-class="navigate">
+            <view class="edituserinfo-list-item">
+             <text>设置手机号 <text class="edituserinfo-list-tips">仅好友可见</text></text>
+             <text class="iconfont iconicon-test14 "></text>
+            </view>
+         </navigator>
+         <navigator url="./weixin/weixin" hover-class="navigate">
+            <view class="edituserinfo-list-item">
+             <text>设置微信号 <text class="edituserinfo-list-tips">仅好友可见</text></text>
+             <text class="iconfont iconicon-test14 "></text>
+            </view>
+         </navigator>
+ </view>

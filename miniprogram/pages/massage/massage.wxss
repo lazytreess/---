@@ -1,0 +1,3 @@
+/* miniprogram/pages/massage/massage.wxss */
+.message{pad:20rpx;}
+.m0essage-text{margin: 30rpx;}

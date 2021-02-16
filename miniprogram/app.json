@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/near/near",
+    "pages/massage/massage",
+    "pages/user/user",
+    "pages/edituserinfo/edituserinfo",
+    "pages/friendList/friendList",
+    "pages/detail/detail",
+    "pages/edituserinfo/head/head",
+    "pages/edituserinfo/name/name",
+    "pages/edituserinfo/location/location",
+    "pages/edituserinfo/signature/signature",
+    "pages/edituserinfo/phone/phone",
+    "pages/edituserinfo/weixin/weixin"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "喵喵交友",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "iconPath": "images/tabber/首页.png",
+        "selectedIconPath": "images/tabber/首页_active.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/tabber/附近.png",
+        "selectedIconPath": "images/tabber/附近_active.png",
+        "pagePath": "pages/near/near",
+        "text": "附近"
+      },
+      {
+        "iconPath": "images/tabber/消息.png",
+        "selectedIconPath": "images/tabber/消息_active.png",
+        "pagePath": "pages/massage/massage",
+        "text": "消息"
+      },
+      {
+        "iconPath": "images/tabber/我的.png",
+        "selectedIconPath": "images/tabber/我的_active.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+      
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

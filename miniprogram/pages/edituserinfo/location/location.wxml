@@ -1,0 +1,5 @@
+<!--miniprogram/pages/edituserinfo/location/location.wxml-->
+ <view>
+  <view>开启共享位置：</view>
+   <switch checked="{{isLocation}}" bindchange="switchChange"/>
+ </view>

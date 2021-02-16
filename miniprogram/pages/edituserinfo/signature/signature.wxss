@@ -1,0 +1,2 @@
+/* miniprogram/pages/edituserinfo/signature/signature.wxss */
+input{border: 1px #bfbfbf solid}

@@ -1,0 +1,13 @@
+<!--miniprogram/pages/massage/massage.wxml-->
+<view class="message" wx:if="{{logged}}">
+<view  class="message" wx:if="{{!userMessage.length}}">
+<text class="message-text">暂无消息：</text>
+</view>
+<view  class="message" wx:else>
+<text  class="message-text">消息列表：</text>
+<view>{{item}}</view>
+<remove-list wx:for="{{userMessage}}" wx:key="{{ index }}"messageId="{{ item }}"   bindmyevent="onMyEvent"/>
+ 
+</view>
+
+</view>
